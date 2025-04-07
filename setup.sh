@@ -49,5 +49,6 @@ touch "$EXAMPLES_DIR/demo_matrix.py"
 touch "$EXAMPLES_DIR/demo_hud_elements.py"
 touch "$EXAMPLES_DIR/demo_glitch_transition.py"
 touch "$EXAMPLES_DIR/demo_console.py"
+touch "$EXAMPLES_DIR/demo_filesearch.py"
 
 echo "Project structure for 'cyberpunk_hud_toolkit' created successfully."
