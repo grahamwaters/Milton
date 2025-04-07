@@ -12,7 +12,10 @@ Shows a futuristic "dashboard" scene with:
 import sys
 import pygame
 
-from core.engine import Engine
+# from core.engine import Engine
+# from core.engine import Engine
+from MILTON.core.engine import Engine
+
 from core.scene import Scene
 from core.hud.circular import CircularProgress
 from core.hud.panel import SlidingPanel
@@ -20,6 +23,9 @@ from core.hud.radar import RadarSweep
 from core.hud.shapes import HexGrid
 from core.hud.text import TextBlock
 from core.hud.particles import ParticleEmitter
+# In cyberpunk_hud_toolkit/examples/demo_dashboard.py
+
+# from cyberpunk_hud_toolkit.core.engine import Engine
 
 def main():
     engine = Engine(width=1280, height=720, title="CybrHUD Dashboard Demo")
